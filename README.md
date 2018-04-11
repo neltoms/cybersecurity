@@ -20,50 +20,28 @@ to send malicious code, generally in the form of a browser side script, to a dif
   
   ```img src="https://shepherdexpre_ss.com/downloads/39509/download/Film_BlackPanther_B.jpg" onmouseover="alert('Wakanda Forever')"```
   
-  - [ ] Affected source code: 
-  ```view-source:http://wpdistillery.vm/sample-page/```
+  - [ ] Affected source code: [Code]view-source:http://wpdistillery.vm/sample-page/
+ 
+1. User List Table Enumeration
+  - Summary: User enumeration vulnerability exploit using wpscan enumeration flag to identify usernames
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: 4.3.1
+  - [X] GIF Walkthrough: 
+      ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/username_enum.gif)
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+1. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [ ] Summary: Used XSS embedded in YouTube video URL within a users post
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
-## Assets
-
-List any additional assets, such as scripts or files
+    ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/embedded_post.gif)
+    
+  - [ ] Steps to recreate: See Walkthrough
+  - [ ] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 ## Resources
 
@@ -73,8 +51,7 @@ List any additional assets, such as scripts or files
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while doing the work
+There were challenges setting up the vulnerability testing software.
 
 ## License
 
