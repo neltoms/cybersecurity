@@ -17,8 +17,12 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] GIF Walkthrough: 
        ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/XSS.gif)
   - [X] Steps to recreate: 
+  
   ```img src="https://shepherdexpre_ss.com/downloads/39509/download/Film_BlackPanther_B.jpg" onmouseover="alert('Wakanda Forever')"```
-  - [ ] Affected source code: ```view-source:http://wpdistillery.vm/sample-page/```
+  
+  - [ ] Affected source code: 
+  ```view-source:http://wpdistillery.vm/sample-page/```
+  
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
