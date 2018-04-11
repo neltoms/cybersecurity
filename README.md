@@ -10,7 +10,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
 
 1. XSS
   - [X] Summary:Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into
-  otherwise benign and trusted web sites.
+  otherwise benign and trusted web sites. This was a 'mouseover' XSS used to inject code into this user post.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.11
@@ -30,7 +30,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
 1. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [X] Summary: Used XSS embedded in YouTube video URL within a users post
+  - [X] Summary: Used XSS embedded in YouTube video URL within a user's post
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
