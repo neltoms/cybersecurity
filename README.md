@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 > Objective: "Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 are injected into otherwise benign and trusted web sites XSS attacks occur when an attacker uses a web application
@@ -16,11 +16,8 @@ to send malicious code, generally in the form of a browser side script, to a dif
     - Fixed in version: 4.2.11
   - [X] GIF Walkthrough: 
        ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/XSS.gif)
-  - [X] Steps to recreate: 
-  
-  ```img src="https://shepherdexpre_ss.com/downloads/39509/download/Film_BlackPanther_B.jpg" onmouseover="alert('Wakanda Forever')"```
-  
-  - [ ] Affected source code: [Code]view-source:http://wpdistillery.vm/sample-page/
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code: [Code](view-source:http://wpdistillery.vm/sample-page/)
  
 1. User List Table Enumeration
   - Summary: User enumeration vulnerability exploit using wpscan enumeration flag to identify usernames
@@ -33,15 +30,14 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
 1. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [ ] Summary: Used XSS embedded in YouTube video URL within a users post
+  - [X] Summary: Used XSS embedded in YouTube video URL within a users post
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
     ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/embedded_post.gif)
-    
-  - [ ] Steps to recreate: See Walkthrough
-  - [ ] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 ## Resources
 
