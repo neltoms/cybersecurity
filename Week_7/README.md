@@ -15,7 +15,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
     - Tested in version: 4.2
     - Fixed in version: 4.2.11
   - [X] GIF Walkthrough: 
-       ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/XSS.gif)
+       ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/XSS.gif)
   - [X] Steps to recreate: See Walkthrough
   - [X] Affected source code: [Code](view-source:http://wpdistillery.vm/sample-page/)
  
@@ -25,7 +25,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
   - [X] GIF Walkthrough: 
-      ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/username_enum.gif)
+      ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/username_enum.gif)
   - [X] Steps to recreate: See Walkthrough
   - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
@@ -35,7 +35,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: 
-    ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/embedded_post.gif)
+    ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/embedded_post.gif)
   - [X] Steps to recreate: See Walkthrough
   - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
