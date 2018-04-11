@@ -1,63 +1,43 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
-> Objective: "Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: "Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 are injected into otherwise benign and trusted web sites XSS attacks occur when an attacker uses a web application
 to send malicious code, generally in the form of a browser side script, to a different end user."
 
 ## Pentesting Report
 
 1. XSS
-  - [X] Summary:Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [X] Summary:Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into
+  otherwise benign and trusted web sites. This was a 'mouseover' XSS used to inject code into this user post.
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.11
   - [X] GIF Walkthrough: 
-       <img src="file:///Users/neltoms/Desktop/Exploits%20CyberSecurity/XSS.gif">
-  - [X] Steps to recreate: [img src="https://shepherdexpre_ss.com/downloads/39509/download/Film_BlackPanther_B.jpg" onmouseover="alert('Wakanda Forever')"]
-  - [ ] Affected source code: 
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
-## Assets
-
-List any additional assets, such as scripts or files
+       ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/XSS.gif)
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code: [Code](view-source:http://wpdistillery.vm/sample-page/)
+ 
+1. User List Table Enumeration
+  - Summary: User enumeration vulnerability exploit using wpscan enumeration flag to identify usernames
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version: 4.3.1
+  - [X] GIF Walkthrough: 
+      ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/username_enum.gif)
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
+1. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [X] Summary: Used XSS embedded in YouTube video URL within a user's post
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
+  - [X] GIF Walkthrough: 
+    ![](https://github.com/neltoms/cybersecurity/blob/master/GIF/embedded_post.gif)
+  - [X] Steps to recreate: See Walkthrough
+  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 ## Resources
 
@@ -67,8 +47,7 @@ List any additional assets, such as scripts or files
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while doing the work
+There were challenges setting up the vulnerability testing software.
 
 ## License
 
