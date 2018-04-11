@@ -17,7 +17,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] GIF Walkthrough: 
        ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/XSS.gif)
   - [X] Steps to recreate: See Walkthrough
-  - [X] Affected source code: [Code](view-source:http://wpdistillery.vm/sample-page/)
+  - [X] Affected source code: ```view-source:http://wpdistillery.vm/sample-page/)```
  
 1. User List Table Enumeration
   - Summary: User enumeration vulnerability exploit using wpscan enumeration flag to identify usernames
@@ -27,7 +27,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] GIF Walkthrough: 
       ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/username_enum.gif)
   - [X] Steps to recreate: See Walkthrough
-  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [X] Affected source code:```view-source:http://wpdistillery.vm/sample-page/)```
   
 1. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [X] Summary: Used XSS embedded in YouTube video URL within a user's post
@@ -37,7 +37,7 @@ to send malicious code, generally in the form of a browser side script, to a dif
   - [X] GIF Walkthrough: 
     ![](https://github.com/neltoms/cybersecurity/blob/master/Week_7/GIF/embedded_post.gif)
   - [X] Steps to recreate: See Walkthrough
-  - [X] Affected source code:[Code](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [X] Affected source code:```view-source:http://wpdistillery.vm/sample-page/)```
 
 ## Resources
 
