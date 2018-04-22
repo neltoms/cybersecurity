@@ -21,7 +21,7 @@ Vulnerability #1: **_SQLI_**
 **Description**: The Blue site, unlike the others, allowed me to determine if an SQL injection is possible by returning the message **_Database query failed_**. With enough time and the proper syntax/injection, this site can be breached.
 
 **GIF Walkthrough**:
-![](
+![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/SQLI.gif)
 
 Vulnerability #2: __________________
 
@@ -40,7 +40,7 @@ Vulnerability #2: **_XSS_**
 **Description**: The Green site allowed me to insert a working link into the _Feedback_ form which executes upon the admin opening the form. The other two site converted the script into harmless text which did not execute upon accessing.
 
 **GIF Walkthrough**:
-![]()
+![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/XSS.gif)
 
 
 ## Red
@@ -50,7 +50,7 @@ Vulnerability #1: **_IDOR_**
 **Description**: The URL is vulnerable in all 3 sites by allowing a user to manipulate the **_id_** to shuffle through salespeople in the organization, but it is especially vulnerable with the red site, which allows you to access inactive users, thus harvesting potentially damning information.
 
 **GIF Walthrough**:
-![](
+![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/IDOR.gif)
 
 Vulnerability #2: __________________
 
