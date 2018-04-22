@@ -16,26 +16,41 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: **_SQLI_**
+
+**Description**: The Blue site, unlike the others, allowed me to determine if an SQL injection is possible by returning the message **_Database query failed_**. With enough time and the proper syntax/injection, this site can be breached.
+
+**GIF Walkthrough**:
+![](
 
 Vulnerability #2: __________________
 
 
 ## Green
 
-Vulnerability #1: _Username Enumeration_
+Vulnerability #1: **_Username Enumeration_**
 
 **Description**: When the username of someone in the database is entered, the '**Log in was unsuccessful**' is displayed in bold type but displayed in plain type when not in the database. The other two sites were consistently bold regardless of whether the user was in the system or not.
 
 **GIF Walkthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/username_enum.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: **_XSS_**
+
+**Description**: The Green site allowed me to insert a working link into the _Feedback_ form which executes upon the admin opening the form. The other two site converted the script into harmless text which did not execute upon accessing.
+
+**GIF Walkthrough**:
+![]()
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: **_IDOR_**
+
+**Description**: The URL is vulnerable in all 3 sites by allowing a user to manipulate the **_id_** to shuffle through salespeople in the organization, but it is especially vulnerable with the red site, which allows you to access inactive users, thus harvesting potentially damning information.
+
+**GIF Walthrough**:
+![](
 
 Vulnerability #2: __________________
 
