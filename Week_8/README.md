@@ -23,8 +23,12 @@ Vulnerability #1: **_SQLI_**
 **GIF Walkthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/SQLI.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: **Session Fixation**
 
+**Description**: In this attack, I was able to inject my session into the unsuspecting Target's browser. Once the Target logged in, I was given full access to the Blue site. This was not the case with the other two sites.
+
+**GIF Walkthrough**:
+![]()
 
 ## Green
 
@@ -52,7 +56,12 @@ Vulnerability #1: **_IDOR_**
 **GIF Walthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/IDOR.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: **CSRF**
+
+**Description**: I was able to manipulate the CSRF token within the Red site's form and change some information once the page was updated. This was not allowed on the other two sites.
+
+**GIF Walkthrough**:
+![]()
 
 
 ## Notes
