@@ -28,6 +28,7 @@ Vulnerability #1: _Username Enumeration_
 **Description**: When the username of someone in the database is entered, the '**Log in was unsuccessful**' is displayed in bold type but displayed in plain type when not in the database. The other two sites were consistently bold regardless of whether the user was in the system or not.
 
 **GIF Walkthrough**:
+![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/username_enum.gif)
 
 Vulnerability #2: __________________
 
