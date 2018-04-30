@@ -8,8 +8,7 @@ repo was successfully downloaded, the assignment went smoothly.
 
 # Summary of Attacks
 I used nslookup to gather ip addresses, then commenced with the following attacks:
-I performed nmap attacks, gathering open ports that can be exploited. I aslo performed tcpdump attacks to gather and analyze
-and gather packet data. See screen shots of the MHN attacks below:
+I performed nmap attacks, gathering open ports that can be exploited. I aslo performed tcpdump attacks to analyze and gather packet data. See screen shots of the MHN attacks below:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_9/GIF/mhn_gif.gif)
 
 # JSON Session Data
