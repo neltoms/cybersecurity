@@ -16,14 +16,14 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: **_SQLI_**
+### Vulnerability #1: **_SQLI_**
 
 **Description**: The Blue site, unlike the others, allowed me to determine if an SQL injection is possible by returning the message **_Database query failed_**. With enough time and the proper syntax/injection, this site can be breached.
 
 **GIF Walkthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/SQLI.gif)
 
-Vulnerability #2: **Session Fixation**
+### Vulnerability #2: **Session Fixation**
 
 **Description**: In this attack, I was able to inject my session into the unsuspecting Target's browser. Once the Target logged in, I was given full access to the Blue site. This was not the case with the other two sites.
 
@@ -32,14 +32,14 @@ Vulnerability #2: **Session Fixation**
 
 ## Green
 
-Vulnerability #1: **_Username Enumeration_**
+### Vulnerability #1: **_Username Enumeration_**
 
 **Description**: When the username of someone in the database is entered, the '**Log in was unsuccessful**' is displayed in bold type but displayed in plain type when not in the database. The other two sites were consistently bold regardless of whether the user was in the system or not.
 
 **GIF Walkthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/username_enum.gif)
 
-Vulnerability #2: **_XSS_**
+### Vulnerability #2: **_XSS_**
 
 **Description**: The Green site allowed me to insert a working link into the _Feedback_ form which executes upon the admin opening the form. The other two site converted the script into harmless text which did not execute upon accessing.
 
@@ -49,14 +49,14 @@ Vulnerability #2: **_XSS_**
 
 ## Red
 
-Vulnerability #1: **_IDOR_**
+### Vulnerability #1: **_IDOR_**
 
 **Description**: The URL is vulnerable in all 3 sites by allowing a user to manipulate the **_id_** to shuffle through salespeople in the organization, but it is especially vulnerable with the red site, which allows you to access inactive users, thus harvesting potentially damning information.
 
 **GIF Walthrough**:
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_8/GIF/IDOR.gif)
 
-Vulnerability #2: **CSRF**
+### Vulnerability #2: **CSRF**
 
 **Description**: I was able to manipulate the CSRF token within the Red site's form and change some information once the page was updated. This was not allowed on the other two sites.
 
