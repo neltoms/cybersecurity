@@ -12,7 +12,4 @@ I performed nmap attacks, gathering open ports that can be exploited. I aslo per
 ![](https://github.com/neltoms/cybersecurity/blob/master/Week_9/GIF/mhn_gif.gif)
 
 ## JSON Session Data
-I could not pull the session data for some reason. I've displayed my process and error messages below. I will continue to
-troubleshoot in the interim.
-![](https://github.com/neltoms/cybersecurity/blob/master/Week_9/GIF/session_data_pull_failure1.png)
-![](https://github.com/neltoms/cybersecurity/blob/master/Week_9/GIF/session_data_pull_failure2.png)
+[JSON LINK](https://github.com/neltoms/cybersecurity/blob/master/Week_9/json_data.json)
